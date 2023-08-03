@@ -24,7 +24,7 @@ const Recipe = () => {
     <DetailWrapper>
       <div>
         <h2>{details.title}</h2>
-        <img src={details.image} />
+        <img alt={details.title} src={details.image} />
       </div>
       <Info>
         <Button

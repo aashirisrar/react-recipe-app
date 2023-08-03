@@ -30,7 +30,7 @@ const Cuisine = () => {
       {cuisine.map((item) => (
         <Card key={item.id}>
           <Link to={"/recipe/" + item.id}>
-            <img src={item.image} />
+            <img alt={item.title} src={item.image} />
             <h4>{item.title}</h4>
           </Link>
         </Card>
